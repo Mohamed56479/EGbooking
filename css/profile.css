@@ -1,0 +1,60 @@
+table {
+    padding-right: 2cm;
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  td {
+    padding:20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+.user-img{
+  height:199px;
+  width:199px;
+  position:absolute;
+  top: 95px;
+  left:78%;
+}
+#thePFP{
+  height:70%;
+  width:70%;
+  border-radius:50%;
+  border: 2px solid gray;
+  
+}
+
+label {
+  cursor: pointer;
+  height:100px;
+  width:210px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 45px;
+}
+
+#file {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+button{
+  border: none;
+  padding: 0.8em;
+  background: #112B3C;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 1em; 
+}
+#editBtn{
+    position: absolute;
+     bottom:2px;
+     right: 21cm;
+     width: 70px; 
+}
+button:hover, button:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+  
